@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35) ) 0% 0% /     cover, url("https://www.dmoe.cc/random.php"), url("https://www.dmoe.cc/random.php") 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* 导航栏 */
+#top{
+    padding-top: 15px;
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(7px);
+    border: 0px;
+}
+
+#top:hover{
+    background-color: rgba(255, 255, 255, .5);
+    transition: all 1s ease;
+}
+
+/* 头图 */
+#headimg{
+    display: inline-block;
+    width: 36%;
+    padding-bottom: 5px;
+    margin-right: -10px;
+}
+
+/* 头图字体 */
+#brand{
+    width: 300px;
+    font-size: 18px;
+    font-weight: 1000;
+    padding-top: 10px;
+    color: rgb(63, 178, 231);
+}
+
+/* 导航栏标签 */
+.container ul li a{
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+/* 顶层jumbotron */
+#header{
+    margin-top: 90px;
+    text-align: center;
+}
+
+/* 顶层jumbotron样式 */
+#title{
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(7px);
+    border-radius: 20px;
+}
+
+/* 顶层jumbotron字体样式 */
+#title h2{
+    font-weight: 800;
+    color: rgb(63, 178, 231);
+}
+
+/* 显示div盒子样式 */
+.thumbnail{
+    border-radius: 20px;
+    border: 0px; 
+    backdrop-filter: blur(7px);
+}
+.thumbnail:hover{
+    transform: scale(1.1); 
+    transition: all 1s ease;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+/* 设置div里的字体颜色 */
+.thumbnail a{
+    text-decoration: none;
+}
+.thumbnail a h4{
+    color: rgb(0, 228, 255);
+    font-weight: 600;
+}
+.thumbnail p{
+    color: rgb(255, 165, 150);
+}
+
+
+
