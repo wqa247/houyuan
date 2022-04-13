@@ -35,11 +35,16 @@ body{
 }
 
 /* 导航栏标签 */
-.container ul li a{
+#navbar ul li a{
     font-weight: 600;
     padding-top: 10px;
-}
 
+}
+#navbar ul li a:hover{
+    transition: all 0.5s;
+    color: rgb(63, 178, 231);
+
+    }
 /* 顶层jumbotron */
 #header{
     margin-top: 90px;
